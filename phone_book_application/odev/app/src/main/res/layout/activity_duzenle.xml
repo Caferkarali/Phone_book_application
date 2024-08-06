@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/emailTextEdit"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/saveButtonEdit"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="GENEL DEĞERLENDİRME"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/nameTextEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="UYGULAMA HAKKINDA " />
+
+    <EditText
+        android:id="@+id/phoneTextEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="FİZYOTERAPİST" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:text="TEDAVİ VE DEĞERLENDİRME SONUCU"
+        android:textSize="16sp" />
+
+</LinearLayout>

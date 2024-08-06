@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:focusableInTouchMode="true">
+
+    <Button
+        android:id="@+id/backButtonAdd"
+        android:layout_width="129dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="16dp"
+        android:drawablePadding="8dp"
+        android:padding="8dp"
+        android:text="Anasayfa" />
+
+    <Button
+        android:id="@+id/saveButtonAdd"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="Hastayı Değerlendirme"
+        android:textColorLink="#0AD0EA"
+        android:textSize="24sp"
+        app:rippleColor="#00BCD4" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="91dp"
+        android:text="Görüntülü Görüşme "
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:text="Hastaya Günlük Görevler"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:text="Danışman"
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:text="Randevu Al  "
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:text="Genel Değerlendirme"
+        android:textSize="24sp" />
+
+</LinearLayout>
